@@ -16,6 +16,7 @@ public class fivehundred implements dispense{
 	@Override
 	public void setNextChain(dispense nextChain) {
 		this.chain=nextChain;
+                System.out.println("Dispensing is not available");
 	}
 
 	@Override
